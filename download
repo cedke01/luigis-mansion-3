@@ -1,0 +1,23 @@
+/luigis-mansion-3
+*.exe
+*.linux
+*.bin
+cert.pem
+key.pem
+nextendo_secret.key
+# Build outputs / compiled servers
+*.out
+/bin/
+/dist/
+# Raw / measured binary data - never ship these
+measured/
+# Secrets & local config - NEVER commit
+.env
+*.pem
+*.key
+*.pfx
+*.der
+# Runtime logs
+stderr.txt
+stdout.txt
+*.log
